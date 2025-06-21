@@ -44,7 +44,7 @@ const (
 	OutputFormatGLSL450 OutputFormat = "glsl450"
 )
 
-//go:embed wasm/angle_shader_translator_standalone.wasm
+//go:embed wasm_out/angle_shader_translator_standalone.wasm
 var wasmByteCode []byte
 
 // ShaderTranslator wraps the wazero runtime and ANGLE WASM module.
